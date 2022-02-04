@@ -1,3 +1,15 @@
 .accent {
   color: blue;
 }
+.body > header {
+  background-color: #fff;
+}
+.benefits {
+  background-color: #e5e5e5;
+}
+.userpic {
+  background-color: #f5f4fa;
+}
+.body {
+  background-color: #2f303a;
+}
