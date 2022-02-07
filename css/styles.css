@@ -1,15 +1,6 @@
-.accent {
-  color: blue;
-}
-.body > header {
-  background-color: #fff;
-}
-.benefits {
-  background-color: #e5e5e5;
-}
-.userpic {
-  background-color: #f5f4fa;
-}
-.body {
-  background-color: #2f303a;
-}
+/* палитра цветов */
+/* color: #2196F3;  акцент синий*/
+/* color: #212121; черный в меню, h2 */
+/* color: #757575; светло черный ,для  тел, мыла,h3 */
+/* color: #FFFFFF; белый текст */
+/* color: rgba(255, 255, 255, 0.6); черный мыло тел подвал */
