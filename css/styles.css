@@ -10,12 +10,17 @@
 /* background: #E5E5E5; примеры работ */
 /* background: #2F303A; body  */
 
+body {
+  color: #757575;
+}
+
 .header {
   background-color: #ffffff;
 }
 
 .hero {
   background-color: #2f303a;
+  color: #ffffff;
 }
 
 .benefits {
@@ -24,6 +29,10 @@
 
 .benefits-img {
   background-color: #f5f4fa;
+}
+
+.title {
+  color: #212121;
 }
 
 .footer {
