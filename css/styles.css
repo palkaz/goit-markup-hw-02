@@ -4,3 +4,44 @@
 /* color: #757575; светло черный ,для  тел, мыла,h3 */
 /* color: #FFFFFF; белый текст */
 /* color: rgba(255, 255, 255, 0.6); черный мыло тел подвал */
+/* background: #2F303A; темный*/
+/* background: #2F303A; чем мы занимаемся */
+/* background: #F5F4FA; наша команда, фон на кнопках фильтра */
+/* background: #E5E5E5; примеры работ */
+/* background: #2F303A; body  */
+
+.header {
+  background-color: #ffffff;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.benefits {
+  background-color: #e5e5e5;
+}
+
+.benefits-img {
+  background-color: #f5f4fa;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+/* logo */
+/* logo-header */
+/* logo-secondary */
+.list {
+  list-style: none;
+}
+.logo {
+  color: #2196f3;
+}
+.logo-secondary {
+  color: #ffffff;
+}
+.logo-primary {
+  color: #212121;
+}
