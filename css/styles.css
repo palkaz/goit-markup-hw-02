@@ -39,18 +39,44 @@ body {
   background-color: #2f303a;
   color: #ffffff;
 }
-/* logo */
-/* logo-header */
-/* logo-secondary */
+/* скрытие маркера списка */
 .list {
   list-style: none;
 }
-.logo {
-  color: #2196f3;
-}
+/* logo */
+
 .logo-secondary {
   color: #ffffff;
 }
+
+.logo {
+  color: #2196f3;
+  text-decoration: none;
+}
+
 .logo-primary {
   color: #212121;
+}
+
+/* .site-nav */
+.site-nav a.link {
+  color: #212121;
+  text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+/* .site-contact  */
+.site-contact a.link {
+  color: #757575;
+  text-decoration: none;
+}
+
+.site-contact a:hover,
+.site-contact a:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
