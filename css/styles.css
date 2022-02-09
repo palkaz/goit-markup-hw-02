@@ -1,17 +1,15 @@
 /* палитра цветов */
 /* color: #2196F3;  акцент синий*/
-/* color: #212121; черный в меню, h2 */
-/* color: #757575; светло черный ,для  тел, мыла,h3 */
+/* color: #212121; в меню, h2 */
+/* color: #757575; тел, мылo,h3 */
 /* color: #FFFFFF; белый текст */
-/* color: rgba(255, 255, 255, 0.6); черный мыло тел подвал */
-/* background: #2F303A; темный*/
-/* background: #2F303A; чем мы занимаемся */
-/* background: #F5F4FA; наша команда, фон на кнопках фильтра */
-/* background: #E5E5E5; примеры работ */
+/* background: #F5F4FA; н.команда, фон на кнопках фильтра */
+/* background: #E5E5E5; example */
 /* background: #2F303A; body  */
 
 body {
   color: #757575;
+  font-family: roboto, sans-serif;
 }
 
 .header {
@@ -47,6 +45,12 @@ body {
 .logo {
   color: #2196f3;
   text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .logo-secondary {
@@ -59,6 +63,12 @@ body {
 
 /* .site-nav */
 .site-nav a.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
 }
@@ -82,6 +92,7 @@ body {
 .button-btn {
   background: #2196f3;
   color: #ffffff;
+  cursor: pointer;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -90,14 +101,15 @@ body {
 .button-control {
   background: #f5f4fa;
   color: #212121;
+  cursor: pointer;
   border: none;
-  foc
   border-radius: 4px;
 }
 
-.button-control:hover{
-  background: #2196F3;
-/* shadow-middle */
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+.button-control:hover {
+  background: #2196f3;
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
