@@ -44,14 +44,13 @@ body {
   list-style: none;
 }
 /* logo */
-
-.logo-secondary {
-  color: #ffffff;
-}
-
 .logo {
   color: #2196f3;
   text-decoration: none;
+}
+
+.logo-secondary {
+  color: #ffffff;
 }
 
 .logo-primary {
