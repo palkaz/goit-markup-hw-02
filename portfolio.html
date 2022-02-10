@@ -14,21 +14,19 @@
     />
     <!-- css  -->
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header class="header">
+      <header class="header">
       <!--Основная навигация-->
-      <nav>
+      <nav class="header-nav">
         <a href="" class="logo">Web<span class="logo-primary">Studio</span></a>
 
         <!--Ссылки на другие страницы или секции текущей страницы -->
-        <ul class="site-nav list">
+        <ul class="header-nav-site list">
           <li><a href="./index.html" class="link">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="site-contact list">
+      <ul class="header-contact list">
         <li>
           <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
@@ -37,24 +35,25 @@
         <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
+  <body>
     <main>
       <h1 hidden>Портфолио</h1>
 
       <!--Фильтр на странице списком кнопок-->
-      <section>
+      <section class="portfolio">
         <h2 hidden>Фильтр на странице</h2>
 
         <ul class="list">
-          <li><button type="button" class="button-control">Все</button></li>
+          <li><button type="button" class="portfolio-button-btn">Все</button></li>
           <li>
-            <button type="button" class="button-control">Веб-сайты</button>
+            <button type="button" class="portfolio-button-btn">Веб-сайты</button>
           </li>
           <li>
-            <button type="button" class="button-control">Приложения</button>
+            <button type="button" class="portfolio-button-btn">Приложения</button>
           </li>
-          <li><button type="button" class="button-control">Дизайн</button></li>
+          <li><button type="button" class="portfolio-button-btn">Дизайн</button></li>
           <li>
-            <button type="button" class="button-control">Маркетинг</button>
+            <button type="button" class="portfolio-button-btn">Маркетинг</button>
           </li>
         </ul>
       </section>
@@ -164,9 +163,9 @@
     <footer class="footer">
       <!--Логотип адресс-->
       <a href="" class="logo">Web<span class="logo-secondary">Studio</span> </a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
+      <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
       <!--Мыло телефон-->
-      <ul class="site-contact list">
+      <ul class="footer-contact list">
         <li>
           <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
