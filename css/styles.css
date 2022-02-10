@@ -1,56 +1,58 @@
 /* палитра цветов */
 /* color: #2196F3;  акцент синий*/
+/* color: #188CE8; hover заказ услуги*/
 /* color: #212121; в меню, h2 */
 /* color: #757575; тел, мылo,h3 */
 /* color: #FFFFFF; белый текст */
 /* background: #F5F4FA; н.команда, фон на кнопках фильтра */
 /* background: #E5E5E5; example */
 /* background: #2F303A; body  */
+/* color: rgba(255, 255, 255, 0.6;footer-contact */
 
 body {
   color: #757575;
   font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
+/* размеры шрифта навигация контакты */
 .header {
+  font-weight: 500;
+  letter-spacing: 0.02em;
   background-color: #ffffff;
 }
 
-.hero {
-  background-color: #2f303a;
-  color: #ffffff;
-}
-
-.benefits {
-  background-color: #e5e5e5;
-}
-
-.benefits-img {
-  background-color: #f5f4fa;
-}
-
-.title {
+.header-nav-site a.link {
   color: #212121;
+  text-decoration: none;
 }
 
-.footer {
-  background-color: #2f303a;
-  color: #ffffff;
+.header-nav-site a:hover,
+.header-nav-site a:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
-/* скрытие маркера списка */
-.list {
-  list-style: none;
+
+.header-contact a.link {
+  color: #757575;
+  text-decoration: none;
 }
-/* logo */
+
+.header-contact a:hover,
+.header-contact a:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
 .logo {
   color: #2196f3;
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 
 .logo-secondary {
@@ -61,41 +63,101 @@ body {
   color: #212121;
 }
 
-/* .site-nav */
-.site-nav a.link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-  text-decoration: none;
-}
-.site-nav a:hover,
-.site-nav a:focus {
-  color: #2196f3;
-  text-decoration: none;
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
 }
 
-/* .site-contact  */
-.site-contact a.link {
-  color: #757575;
-  text-decoration: none;
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.site-contact a:hover,
-.site-contact a:focus {
-  color: #2196f3;
-  text-decoration: none;
-}
-.button-btn {
+.hero-button-btn {
   background: #2196f3;
   color: #ffffff;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.hero-button-btn:hover,
+.hero-button-btn:focus {
+  background: #188ce8;
+}
+
+.benefits {
+  background-color: #e5e5e5;
+}
+
+.benefist-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.benefits-text {
+  font-family: Roboto;
+  font-weight: 400;
+  text-transform: none;
+  color: #757575;
+}
+
+.example {
+  background-color: #f5f4fa;
+}
+
+.example-title,
+.userpic-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: #212121;
+}
+
+.userpic-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #212121;
+}
+
+.userpice-txt {
+  color: #757575;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.footer-adress {
+  font-style: normal;
+}
+
+.footer-contact a.link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* скрытие маркера списка */
+.list {
+  list-style: none;
 }
 
 .button-control {

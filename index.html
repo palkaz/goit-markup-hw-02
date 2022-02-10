@@ -19,17 +19,17 @@
   <body>
     <header class="header">
       <!--Основная навигация-->
-      <nav>
+      <nav class="header-nav">
         <a href="" class="logo">Web<span class="logo-primary">Studio</span></a>
 
         <!--Ссылки на другие страницы или секции текущей страницы -->
-        <ul class="site-nav list">
+        <ul class="header-nav-site list">
           <li><a href="./index.html" class="link">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="site-contact list">
+      <ul class="header-contact list">
         <li>
           <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
@@ -41,46 +41,59 @@
     <main>
       <!--Секция с заказом услуги-->
       <section class="hero">
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="button-btn">Заказать услугу</button>
+        <h1 class="hero-title">
+          Эффективные решения<br />
+          для вашего бизнеса
+        </h1>
+        <button type="button" class="hero-button-btn">Заказать услугу</button>
       </section>
       <!--Перечисление преимуществ-->
       <section class="benefits">
         <h2 hidden>Перечисление преимуществ</h2>
         <ul class="list">
           <li>
-            <h3 class="title">Внимание к деталям</h3>
-            <p>
-              Идейные соображения, а также начало повседневной работы по
+            <h3 class="benefist-title">Внимание к деталям</h3>
+
+            <pre class="benefits-text">
+              Идейные соображения, а также начало
+              повседневной работы по
               формированию позиции.
-            </p>
+            </pre>
           </li>
           <li>
-            <h3 class="title">Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
+            <h3 class="benefist-title">Пунктуальность</h3>
+
+            <pre class="benefits-text">
+               Задача организации, в особенности
+               же рамки и место обучения кадров
+               влечет за собой.
+              </pre
+            >
           </li>
           <li>
-            <h3 class="title">Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной
+            <h3 class="benefist-title">Планирование</h3>
+
+            <pre class="benefits-text">
+              Равным образом консультация с
+              широким активом в значительной
               степени обуславливает.
-            </p>
+              </pre
+            >
           </li>
           <li>
-            <h3 class="title">Современные технологии</h3>
-            <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
+            <h3 class="benefist-title">Современные технологии</h3>
+
+            <pre class="benefits-text">
+              Значимость этих проблем настолько
+              очевидна, что реализация плановых
+              заданий.
+            </pre>
           </li>
         </ul>
       </section>
       <!--Примеры чем мы занимаемся-->
-      <section class="benefits-img">
-        <h2 class="title">Чем мы занимаемся</h2>
+      <section class="example">
+        <h2 class="example-title">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
             <img
@@ -110,7 +123,7 @@
       </section>
       <!--Наша команда-->
       <section class="userpic">
-        <h2 class="title">Наша команда</h2>
+        <h2 class="userpic-title">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -119,8 +132,8 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="userpic-name">Игорь Демьяненко</h3>
+            <p class="userpic-txt">Product Designer</p>
           </li>
           <li>
             <img
@@ -129,8 +142,8 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="userpic-name">Ольга Репина</h3>
+            <p class="userpic-txt">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -139,8 +152,8 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="userpic-name">Николай Тарасов</h3>
+            <p class="userpic-txt">Marketing</p>
           </li>
           <li>
             <img
@@ -149,8 +162,8 @@
               width="270"
               height="260"
             />
-            <h3 class="title">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="userpic-name">Михаил Ермаков</h3>
+            <p class="userpic-txt">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -159,9 +172,9 @@
     <footer class="footer">
       <!--Логотип адресс-->
       <a href="" class="logo">Web<span class="logo-secondary">Studio</span> </a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
+      <address class="footer-adress">г. Киев, пр-т Леси Украинки, 26</address>
       <!--Мыло телефон-->
-      <ul class="site-contact list">
+      <ul class="footer-contact list">
         <li>
           <a href="mailto:info@devstudio.com" class="link"
             >info@devstudio.com</a
