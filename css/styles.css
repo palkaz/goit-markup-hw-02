@@ -1,16 +1,18 @@
 /* палитра цветов */
-/* color: #2196F3;  акцент синий*/
-/* color: #188CE8; hover заказ услуги*/
-/* color: #212121; в меню, h2 */
-/* color: #757575; тел, мылo,h3 */
-/* color: #FFFFFF; белый текст */
-/* background: #F5F4FA; н.команда, фон на кнопках фильтра */
-/* background: #E5E5E5; example */
-/* background: #2F303A; body  */
-/* color: rgba(255, 255, 255, 0.6;footer-contact */
+:root {
+  --accent-color: #2196f3;
+  --accent-color-hover: #188ce8;
+  --title-color: #212121;
+  --txt-color: #757575;
+  --header-hero-color: #fff;
+  --background-hero-footer: #2f303a;
+  --background-benefits: #e5e5e5;
+  --background-btn-filter: #f5f4fa;
+  --footer-contact: rgba(255, 255, 255, 0.6;);
+}
 
 body {
-  color: #757575;
+  color: var(--txt-color);
   font-family: roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
@@ -21,33 +23,33 @@ body {
 .header {
   font-weight: 500;
   letter-spacing: 0.02em;
-  background-color: #ffffff;
+  background-color: var(--header-hero-color);
 }
 
 .header-nav-site a.link {
-  color: #212121;
+  color: var(--title-color);
   text-decoration: none;
 }
 
 .header-nav-site a:hover,
 .header-nav-site a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
 .header-contact a.link {
-  color: #757575;
+  color: var(--txt-color);
   text-decoration: none;
 }
 
 .header-contact a:hover,
 .header-contact a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
   font-family: Raleway;
   font-weight: 700;
@@ -56,16 +58,16 @@ body {
 }
 
 .logo-secondary {
-  color: #ffffff;
+  color: var(--header-hero-color);
 }
 
 .logo-primary {
-  color: #212121;
+  color: var(--title-color);
 }
 
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--background-hero-footer);
+  color: var(--header-hero-color);
 }
 
 .hero-title {
@@ -78,8 +80,8 @@ body {
 }
 
 .hero-button-btn {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--header-hero-color);
   font-family: roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -96,28 +98,29 @@ body {
 
 .hero-button-btn:hover,
 .hero-button-btn:focus {
-  background: #188ce8;
+  background: var(--accent-color-hover);
 }
 
-.benefits {
-  background-color: #e5e5e5;
+.benefits,
+.portfolio-benefits {
+  background-color: var(--background-benefits);
 }
 
 .benefist-title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .benefits-text {
   font-family: Roboto;
   text-transform: none;
-  color: #757575;
+  color: var(--txt-color);
 }
 
 .example {
-  background-color: #f5f4fa;
+  background-color: var(--background-btn-filter);
 }
 
 .example-title,
@@ -126,23 +129,23 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .userpic-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .userpice-txt {
-  color: #757575;
+  color: var(--txt-color);
 }
 
 .footer {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--background-hero-footer);
+  color: var(--header-hero-color);
 }
 
 .footer-adress {
@@ -151,12 +154,12 @@ body {
 
 .footer-contact a.link {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contact);
 }
 
 .footer-contact a.link:hover,
 .footer-contact a.link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* скрытие маркера списка */
 .list {
@@ -164,13 +167,13 @@ body {
 }
 
 .portfolio-btn {
-  background: #f5f4fa;
+  background: var(--background-btn-filter);
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  color: #212121;
+  color: var(--title-color);
   cursor: pointer;
   border: none;
   border-radius: 4px;
@@ -178,16 +181,12 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  background: #2196f3;
-  color: #fff;
+  background: var(--accent-color);
+  color: var(--header-hero-color);
   /* shadow-middle */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-
-.portfolio-benefits {
-  background-color: #e5e5e5;
 }
 
 .portfolio-benefits-title {
@@ -195,5 +194,5 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
