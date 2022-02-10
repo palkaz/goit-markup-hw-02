@@ -112,7 +112,6 @@ body {
 
 .benefits-text {
   font-family: Roboto;
-  font-weight: 400;
   text-transform: none;
   color: #757575;
 }
@@ -155,6 +154,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contact a.link:hover,
+.footer-contact a.link:focus {
+  color: #2196f3;
+}
 /* скрытие маркера списка */
 .list {
   list-style: none;
@@ -166,7 +169,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  /* identical to box height, or 162% */
   text-align: center;
   color: #212121;
   cursor: pointer;
@@ -189,8 +191,6 @@ body {
 }
 
 .portfolio-benefits-title {
-  /* font-family: Roboto;
-font-style: normal; */
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
