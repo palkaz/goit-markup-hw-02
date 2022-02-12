@@ -26,7 +26,7 @@ body {
   background-color: var(--header-hero-color);
 }
 
-.header-nav-site a.link {
+.header-nav-site .link {
   color: var(--title-color);
   text-decoration: none;
 }
@@ -34,6 +34,11 @@ body {
 .header-nav-site a:hover,
 .header-nav-site a:focus {
   color: var(--accent-color);
+  text-decoration: none;
+}
+
+.link.current {
+  color: #2196f3;
   text-decoration: none;
 }
 
