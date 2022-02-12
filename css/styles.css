@@ -6,7 +6,6 @@
   --txt-color: #757575;
   --header-hero-color: #fff;
   --background-hero-footer: #2f303a;
-  --background-benefits: #e5e5e5;
   --background-btn-filter: #f5f4fa;
   --footer-contact: rgba(255, 255, 255, 0.6);
 }
@@ -23,7 +22,7 @@ body {
 .header {
   font-weight: 500;
   letter-spacing: 0.02em;
-  background-color: var(--header-hero-color);
+  /* background-color: var(--header-hero-color); */
 }
 
 .header-nav-site .link {
@@ -106,11 +105,6 @@ body {
   background: var(--accent-color-hover);
 }
 
-.benefits,
-.portfolio-benefits {
-  background-color: var(--background-benefits);
-}
-
 .benefist-title {
   font-weight: 700;
   line-height: 1.14;
@@ -124,7 +118,7 @@ body {
   color: var(--txt-color);
 }
 
-.example {
+.userpic {
   background-color: var(--background-btn-filter);
 }
 
