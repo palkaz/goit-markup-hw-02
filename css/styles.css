@@ -38,7 +38,7 @@ body {
 }
 
 .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
