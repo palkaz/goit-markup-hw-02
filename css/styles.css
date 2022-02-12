@@ -112,12 +112,6 @@ body {
   color: var(--title-color);
 }
 
-.benefits-text {
-  font-family: Roboto;
-  text-transform: none;
-  color: var(--txt-color);
-}
-
 .userpic {
   background-color: var(--background-btn-filter);
 }
