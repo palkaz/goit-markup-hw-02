@@ -86,7 +86,7 @@ body {
 .hero-button-btn {
   background: var(--accent-color);
   color: var(--header-hero-color);
-  font-family: inherit
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
