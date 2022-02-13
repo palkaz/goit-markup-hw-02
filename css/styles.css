@@ -17,7 +17,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+/* проверил валидатором */
 /* размеры шрифта навигация контакты */
 .header {
   font-weight: 500;
