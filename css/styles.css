@@ -86,7 +86,7 @@ body {
 .hero-button-btn {
   background: var(--accent-color);
   color: var(--header-hero-color);
-  font-family: roboto, sans-serif;
+  font-family: inherit
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -161,7 +161,7 @@ body {
 
 .portfolio-btn {
   background: var(--background-btn-filter);
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
